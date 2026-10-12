@@ -24,7 +24,7 @@ Strategic positioning: **"Amazon of information for AI agents."** Multi-sided re
 
 **Observer Agent** — Autonomous TypeScript service on Railway. Watches Solana mainnet for whale movements + Jupiter swaps + correlated activity. Sends alerts to Discord.
 
-**Backdoor Vision (BV)** — Python asyncio daemon on Railway. Detects insider trader signals across Polymarket, Drift, and Solana. Feeds wallet watchlist to the Observer Agent via HTTP API.
+**Backdoor Vision (BV)** — Python asyncio research pipeline. Alert publication and the inferred-wallet watchlist are paused pending independently verified on-chain evidence. It does not establish insider knowledge, shared funding, predictive accuracy or advance news knowledge. Only transaction signatures, full wallet addresses and verified explorer links may support future activity alerts.
 
 **RFU Observer Discord Bot** — discord.js v14 bot serving the community. Handles /verify (NFT-gated role assignment), /agent-status, /agent-escrow, and posts 15-min whale alerts. Connected to the Observer Agent via HMAC-signed webhook (`/agent-alert`).
 
